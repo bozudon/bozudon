@@ -1,0 +1,11 @@
+FROM rust:1.70.0
+
+WORKDIR /
+
+COPY ./src /src
+COPY ./Cargo.toml /Cargo.toml
+COPY ./Cargo.lock /Cargo.lock
+
+ENTRYPOINT ["cargo", "run"]
+
+EXPOSE 8080

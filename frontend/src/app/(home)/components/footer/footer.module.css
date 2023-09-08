@@ -1,0 +1,11 @@
+.container {
+    color: #8d8d8d;
+    font-size: small;
+}
+
+.border {
+    border-width: 2px;
+    border-radius: 10px;
+    max-width: 11.5rem;
+    margin: 3px 0;
+}

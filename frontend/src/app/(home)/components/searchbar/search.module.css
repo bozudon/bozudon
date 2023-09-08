@@ -1,0 +1,9 @@
+.resultsContainer {
+  margin-top: 1rem;
+  display: grid;
+  grid-gap: 0.1rem;
+}
+
+.card {
+  cursor: pointer;
+}

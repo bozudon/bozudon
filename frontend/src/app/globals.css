@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    scrollbar-gutter: stable;
+    margin-left: 10px;
+}
+
+html::-webkit-scrollbar-track
+{
+	border: 5px solid rgb(231, 228, 228);
+	/* border color does not support transparent on scrollbar */
+	/* border-color: transparent; */
+	background-color: #b2bec3;
+}
+
+html::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #dfe6e9;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	background-color: #B4CBF0;
+	border-radius: 20px;
+}

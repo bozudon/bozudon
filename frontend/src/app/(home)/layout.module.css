@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+    gap: 1rem;
+}
+
+.left__container {
+    width: 15vw;
+    max-height: 95vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2vh;
+}
+
+.center__container {
+    width: 35vw;
+    min-height: 95vh;
+    background-color: #F5F8FA;
+    border-radius: 10px;
+}
+
+.right__container {
+    width: 15vw;
+    max-height: 95vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (width <= 60rem) {
+    .center__container {
+        width: 21rem;
+    }
+}

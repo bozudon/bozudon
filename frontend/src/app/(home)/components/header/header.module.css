@@ -1,0 +1,26 @@
+.container {
+  width: auto;
+  height: 3.5rem;
+  border-bottom: 2.5px solid #dfe6e9;
+  background-color: #D5E3F0;
+  border-radius: 10px 10px 3px 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.goBackContainer {
+  position: absolute !important;
+  left: 0 !important;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.text {
+  font-size: 1.0rem;
+  color: #2d3436;
+}

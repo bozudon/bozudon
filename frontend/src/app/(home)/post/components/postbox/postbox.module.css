@@ -1,0 +1,23 @@
+.mark {
+    font-size: small;
+}
+
+.child {
+    border: none;
+    outline: none;
+    border-bottom: 0.5rem solid #ccc;
+}
+
+.functionsContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5rem;
+}
+
+.utilsContainer {
+    flex:1;
+}
+
+.dummy {
+    width: 3rem;
+}
